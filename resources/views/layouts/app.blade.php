@@ -136,10 +136,22 @@
                                     @if (Auth::check())
                                         <li><a href="demo-shop-5-myaccount
                             .html">我的账号</a></li>
-                                        <li><a href="{{ url('/logout') }}">注销</a></li>
+                                        <li>
+
+                                            <a href="{{ route('logout') }}"
+                                               onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                              登出
+                                            </a>
+
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                {{ csrf_field() }}
+                                            </form>
+
+                                        </li>
                                     @else
-                                        <li><a href="#">登录</a></li>
-                                        <li><a href="#">注册</a></li>
+                                        <li><a href="{{ route('login') }}">登录</a></li>
+                                        <li><a href="{{ route('register') }}">注册</a></li>
                                     @endif
                                 </div>
                             @endif
