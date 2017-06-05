@@ -184,6 +184,7 @@ return [
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         Overtrue\LaravelWechat\ServiceProvider::class,
 
+        Yajra\Datatables\DatatablesServiceProvider::class,
 
 
     ],

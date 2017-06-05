@@ -20,6 +20,14 @@ Route::get('/', function () {
     return view('homepage');
 });
 
-
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/price_list', function () {
+        return view('price_list');
+    });
+});
 
 Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
