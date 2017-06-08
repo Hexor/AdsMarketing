@@ -105,24 +105,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <i class="fa fa-truck bar-icon"></i>
+                        <i class="fa fa-comments-o bar-icon"></i>
                         <div class="bar-textarea">
-                            <h3>FREE SHIPPING &amp; RETURN</h3>
-                            <p>Free shipping on all orders over $99.</p>
+                            <h3>免费咨询 随时获取报价</h3>
+                            <p>注册之后, 即可获取所有信息</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <i class="fa fa-dollar bar-icon"></i>
                         <div class="bar-textarea">
-                            <h3>MONEY BACK GUARANTEE</h3>
-                            <p>100% money back guarantee.</p>
+                            <h3>更多独家资源</h3>
+                            <p>更好的广告效果 让您占得先机</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <i class="fa fa-support bar-icon"></i>
                         <div class="bar-textarea">
-                            <h3>ONLINE SUPPORT 24/7</h3>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h3>在线客服支持 24/7</h3>
+                            <p>全天候为您提供服务.</p>
                         </div>
                     </div>
                 </div>
@@ -434,7 +434,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="recent-posts mb-xl">
-                                <h2>Latest <strong>Blog</strong> Posts</h2>
+                                <h2>公司最新 <strong>动态</strong> </h2>
                                 <div class="row">
                                     <div class="owl-carousel owl-theme mb-none" data-plugin-options='{"items": 1}'>
                                         <div>
@@ -508,7 +508,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <h2><strong>What</strong> Client’s Say</h2>
+                            <h2><strong>客户</strong>  怎么说</h2>
                             <div class="row">
                                 <div class="owl-carousel owl-theme mb-none" data-plugin-options='{"items": 1}'>
                                     <div>

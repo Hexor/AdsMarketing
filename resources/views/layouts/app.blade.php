@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Demo Shop 5 | Porto - Responsive HTML5 Template 5.1.0</title>
+    <title>拉布创意</title>
 
-    <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="Porto - Responsive HTML5 Template">
-    <meta name="author" content="okler.net">
+    <meta name="keywords" content="二次元广告 策划 推广" />
+    <meta name="description" content="拉布创意官方网站">
+    <meta name="author" content="Labu Creative">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -181,7 +181,7 @@
                                     <i class="fa fa-phone"></i>
                                     <span>(+86) 185 7032 6964</span>
                                     <span class="split"></span>
-                                    <a href="#">联系我们</a>
+                                    <a href="#">我的收藏</a>
                                 </div>
 
                                 <div class="cart-dropdown">
@@ -290,7 +290,7 @@
                             <ul class="nav nav-pills" id="mainNav">
                                 <li class="dropdown active">
                                     <a class="dropdown-toggle" href="demo-shop-5.html">
-                                        Home
+                                        主页
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="dropdown-submenu">
@@ -326,7 +326,8 @@
                                 </li>
                                 <li class="dropdown dropdown-mega-small">
                                     <a href="demo-shop-5-category-4col.html" class="dropdown-toggle">
-                                        Fashion <span class="tip tip-new">New</span>
+                                        二次元渠道推广 <span class="tip
+                                        tip-new">New</span>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -383,7 +384,7 @@
                                 </li>
                                 <li class="dropdown dropdown-mega">
                                     <a href="demo-shop-5-category-4col.html" class="dropdown-toggle">
-                                        Electronics
+                                       微博推广
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -458,7 +459,7 @@
                                 </li>
                                 <li class="dropdown">
                                     <a class="dropdown-toggle" href="#">
-                                        Pages
+                                        视频播客推广
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="dropdown-submenu">
@@ -513,7 +514,16 @@
                                 </li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle">
-                                        Blog
+                                        门户头条推广
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="demo-shop-5-blog.html">Blog</a></li>
+                                        <li><a href="demo-shop-5-blog-post.html">Blog Post</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle">
+                                        微信公众号推广
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="demo-shop-5-blog.html">Blog</a></li>
@@ -522,14 +532,15 @@
                                 </li>
                                 <li class="pull-right">
                                     <a href="demo-shop-5-contact-us.html">
-                                        Contact Us <span class="tip tip-hot">Hot!</span>
+                                        联系我们 <span class="tip
+                                        tip-hot">Hot!</span>
                                     </a>
                                 </li>
-                                <li class="pull-right ">
-                                    <a href="#">
-                                        Buy Porto!
-                                    </a>
-                                </li>
+                                {{--<li class="pull-right ">--}}
+                                    {{--<a href="#">--}}
+                                        {{--Buy Porto!--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
                             </ul>
                         </nav>
                     </div>
